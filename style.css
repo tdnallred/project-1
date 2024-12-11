@@ -91,20 +91,20 @@ div.profileRow {
 div.profile {
   display: flex-column;
   padding: 25px;
-  border-color: black;
-  border-style: solid;
-  margin: 16px 8px 16px 8px;
+  margin: 32px 16px 32px 16px;
   border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div#profileDescription,
+div.profileDescription,
 h2 {
-  margin: 0;
+  margin: 8px 0 0px 0;
 }
 
 div.imgCont {
   display: flex;
   justify-content: center;
+  margin: 0 0 16px 0;
 }
 
 div#profileDescription,
