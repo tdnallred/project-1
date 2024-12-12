@@ -94,6 +94,19 @@ h2 {
   font-size: 100px;
 }
 
+p {
+  font-family: 'Catamaran', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+p.meet {
+  font-family: 'Catamaran', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
 h3 {
   font-family: 'Bungee', sans-serif;
   font-weight: 400;
