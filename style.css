@@ -49,16 +49,17 @@ section.hero {
   width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin-bottom: 100px;
 }
 
 div#heroLeft {
   background-color: white;
-  height: 80vh;
+  height: 100vh;
   display: flex;
   line-height: 0.75;
 }
 div#heroRight {
-  height: 80vh;
+  height: 100vh;
   background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExczY2aG5meXcyNnRtM2NpcnF0Z2c2cmFsa2lyZ3RsYnduZnZqdjIycCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NxwRDSUNzXshW/giphy.webp');
   background-size: cover;
   background-position: center;
@@ -71,6 +72,11 @@ h1#hero {
   font-size: 210px;
   display: flex;
   flex-wrap: wrap;
+}
+
+section#catHead > img {
+  width: 100%;
+  display: flex;
 }
 
 span#Cats {
@@ -92,6 +98,7 @@ h2 {
   font-weight: 400;
   font-style: normal;
   font-size: 100px;
+  color: white;
 }
 
 p {
@@ -115,6 +122,12 @@ h3 {
   margin: 0;
 }
 
+section#second {
+  background-color: black;
+  margin: 0;
+  padding-bottom: 100px;
+}
+
 section#meetThe {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -132,11 +145,12 @@ div.profile {
   margin: 32px 16px 8px 16px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
 }
 
 div.profileDescription,
 h2 {
-  margin: 8px 0 0px 0;
+  margin: 0px 0 0px 0;
 }
 
 div.imgCont {
