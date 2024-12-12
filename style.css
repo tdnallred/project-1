@@ -105,18 +105,18 @@ h3 {
 section#meetThe {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 0px 10em 60px 10em;
+  margin: 0px 20em 60px 25em;
 }
 
 div.profileRow {
-  justify-content: space-evenly;
-  align-items: center;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 div.profile {
   display: flex-column;
   padding: 25px;
-  margin: 32px 16px 32px 16px;
+  margin: 32px 16px 8px 16px;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -141,4 +141,5 @@ img.catProfileImage {
   border-radius: 10000px;
   width: 200px;
   height: 200px;
+  object-fit: cover;
 }
