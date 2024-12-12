@@ -77,10 +77,35 @@ span#Cats {
   font-size: 350px;
 }
 
+section#second {
+  margin: 120px 0 120px 0;
+}
+
+section#second > h2 {
+  grid-template-rows: 1fr 4fr;
+  display: flex-row;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+}
+
+h3 {
+  font-family: 'Bungee', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  margin: 0;
+}
+
 section#meetThe {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 60px 10em 60px 10em;
+  margin: 0px 10em 60px 10em;
 }
 
 div.profileRow {
@@ -115,4 +140,5 @@ p {
 img.catProfileImage {
   border-radius: 10000px;
   width: 200px;
+  height: 200px;
 }
